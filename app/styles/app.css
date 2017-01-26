@@ -1,0 +1,23 @@
+.collecting-mangos {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.small-mango {
+  width: 80px;
+  padding: 10px;
+}
+
+
+.big-mango:hover {
+  cursor: pointer;
+}
+
+
+.big-mango {
+  position: relative;
+  width: 225px;
+  transition: left 500ms;
+};
